@@ -1,0 +1,37 @@
+@media screen and (max-width: 1400px) {
+    
+    .menu-lateral 
+    {
+        margin-bottom: 30px
+    }
+    
+    .menu-lateral a {
+        font-size: 14px;
+    }
+
+    .menu-lateral li {
+        padding-bottom: 7px;
+    }
+
+    .menu-lateral.social li 
+    {
+        
+    }
+
+    .menu-lateral.menu-lateral.social a {
+
+        font-size: 12px;
+        width: 30px;
+        height: 30px;
+
+        line-height: 30px;
+
+        margin-bottom: 7px;
+
+    }
+
+    .sidebar .btn.custom
+    {
+        margin-top: -25px;
+    }
+}

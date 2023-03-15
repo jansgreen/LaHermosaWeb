@@ -1,0 +1,205 @@
+/*VARIABLES*/
+
+:root
+{
+    --color-primario: #004E89;
+}
+
+/* ESTILOS GOBABLES */
+
+html,
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    float: left;
+    height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover 
+{
+    cursor: pointer;
+}
+
+.outer-wrapper {
+    width: 100%;
+    min-height: 100vh;
+    float: left;
+}
+
+.sidebar {
+    min-height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: var(--color-primario);
+    text-align: center;
+    width: 120px;
+}
+
+.logo {
+    width: 80px;
+    display: block;
+    margin: 30px auto;
+}
+
+.divisor {
+    margin: 0 25px;
+    color: white;
+}
+
+.menu-lateral {
+    width: 120px;
+    height: 100%;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.menu-lateral li {
+    padding-bottom: 20px;
+}
+
+.menu-lateral li.activo a {
+    opacity: 1;
+}
+
+.menu-lateral li a {
+    color: #E8E8E8;
+    opacity: .7;
+}
+
+.menu-lateral.social a 
+{
+    background: rgb(255 255 255 / 35%);
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 100%;
+    opacity: 1;
+}
+
+.btn.custom
+{
+    background: white;
+    border-radius: 20px;
+    padding: 2px 11px;
+    margin: 0px auto;
+    margin-top: -35px;
+    font-size: 12px;
+    color: #004E89;
+}
+
+.nombre-iglesia 
+{
+    display: block;
+    margin: 16px 43px;
+    width: 260px;
+}
+
+.wrapper
+{
+    padding-left: 120px;
+    width: 100%;
+    min-height: 100vh;
+    float: left;
+}
+
+.wrapper .dentro-wrapper
+{
+    width: 100%;
+    min-height: 100%;
+    float: left;
+}
+
+.top-bienvenida
+{
+    background: transparent linear-gradient(274deg, #F1F1F1 0%, #F5F5F585 42%, #D1EBFF85 66%, #D7ECFC 100%) 0% 0% no-repeat padding-box;
+}
+
+.cabecera
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.cabecera-izquierda
+{
+
+}
+
+.cabecera-derecha
+{
+
+}
+
+.menu-cabecera {
+    position: absolute;
+    right: 27px;
+    top: 30px;
+}
+
+.menu-cabecera .menu
+{
+
+}
+
+.menu-cabecera .menu li
+{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.menu-cabecera .menu li a
+{
+    background: #E2F2FE;
+    padding: 4px 16px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: var(--color-primario);
+    font-weight: 500;
+}
+
+.seccion 
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 4%;
+}
+
+.seccion-izquierda {
+    max-width: 50%;
+}
+
+.bienvenido-titulo 
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+}
+
+.color-titulo
+{
+    color: #B57F00;
+}
+
